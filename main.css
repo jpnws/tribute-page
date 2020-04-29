@@ -1,0 +1,18 @@
+#title {
+  text-align: center;  
+}
+
+#img-div {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  justify-content: center;
+}
+
+#image {
+  width: 100%;
+  height: auto;
+}
+
+#img-caption {
+  text-align: center;
+}
