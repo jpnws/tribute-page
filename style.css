@@ -26,7 +26,7 @@ h2 {
 
 .intro-box {
   padding-top: 4.5em;
-  padding-bottom: 5em;
+  padding-bottom: 5.5em;
   text-align: center;
   background-color: #fff9ed;
 }
@@ -43,27 +43,55 @@ h2 {
 }
 
 .tagline {
-  margin-top: 4em;
-  font-size: 1.2rem;
+  margin-top: 5em;
+  font-size: 1.4rem;
   color: #3b3b3b;
   font-style: italic;
 }
 
 .main-section {
-  padding: 1.5em;
+  padding: 2em;
 }
 
 .main-section h2 {
   margin: 0.5em 0 0.5em 0;
+  font-size: 2rem;
 }
 
-.main-section p {
+.main-paragraph {
   line-height: 1.5em;
+  font-size: 1.7rem;
+}
+
+.main-paragraph + .main-paragraph {
+  margin-top: 0.75em;
 }
 
 @media (min-width: 900px) {
   .top-section {
     display: flex;
+  }
+
+  .intro-box {
+    width: 50%;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .name {
+    font-size: 4.5rem;
+    line-height: 2.5rem;
+  }
+
+  .dates {
+    font-size: 1.5rem;
+  }
+
+  .tagline {
+    font-size: 1.3rem;
   }
 
   .einstein-photo {
@@ -72,7 +100,35 @@ h2 {
     object-fit: cover;
   }
 
-  .intro-box {
-    width: 50%;
+  .main-section {
+    display: flex;
+    justify-content: end;
+  }
+
+  .col {
+    width: 33%;
+  }
+
+  .col + .col {
+    margin-left: 2em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .name {
+    font-size: 6rem;
+    line-height: 4rem;
+  }
+
+  .dates {
+    font-size: 2rem;
+  }
+
+  .tagline {
+    font-size: 1.7rem;
+  }
+
+  .col {
+    width: 24%;
   }
 }
