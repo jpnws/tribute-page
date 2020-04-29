@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Markazi Text", serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+p,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.einstein-photo {
+  display: block;
+}
+
+.intro-box {
+  padding-top: 4.5em;
+  padding-bottom: 5em;
+  text-align: center;
+  background-color: #fff9ed;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 2.5rem;
+}
+
+.dates {
+  font-size: 1.5rem;
+  color: #3b3b3b;
+}
+
+.tagline {
+  margin-top: 4em;
+  font-size: 1.2rem;
+  color: #3b3b3b;
+  font-style: italic;
+}
+
+.main-section {
+  padding: 1.5em;
+}
+
+.main-section h2 {
+  margin: 0.5em 0 0.5em 0;
+}
+
+.main-section p {
+  line-height: 1.5em;
+}
+
+@media (min-width: 900px) {
+  .top-section {
+    display: flex;
+  }
+
+  .einstein-photo {
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  .intro-box {
+    width: 50%;
+  }
+}
