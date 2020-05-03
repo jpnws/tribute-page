@@ -24,6 +24,10 @@ h2 {
   display: block;
 }
 
+#image {
+  height: auto;
+}
+
 .intro-box {
   padding-top: 4.5em;
   padding-bottom: 5.5em;
@@ -47,6 +51,11 @@ h2 {
   font-size: 1.4rem;
   color: #3b3b3b;
   font-style: italic;
+}
+
+#tribute-link {
+  text-decoration: none;
+  color: #e4e4e4;
 }
 
 .main-section {
