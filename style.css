@@ -29,10 +29,10 @@ h2 {
 }
 
 .intro-box {
+  background-color: #fff9ed;
   padding-top: 4.5em;
   padding-bottom: 5.5em;
   text-align: center;
-  background-color: #fff9ed;
 }
 
 .name {
@@ -42,20 +42,20 @@ h2 {
 }
 
 .dates {
-  font-size: 1.5rem;
   color: #3b3b3b;
+  font-size: 1.5rem;
 }
 
 .tagline {
   margin-top: 5em;
-  font-size: 1.4rem;
   color: #3b3b3b;
   font-style: italic;
+  font-size: 1.4rem;
 }
 
 #tribute-link {
-  text-decoration: none;
   color: #e4e4e4;
+  text-decoration: none;
 }
 
 .main-section {
@@ -68,8 +68,8 @@ h2 {
 }
 
 .main-paragraph {
-  line-height: 1.5em;
   font-size: 1.7rem;
+  line-height: 1.5em;
 }
 
 .main-paragraph + .main-paragraph {
@@ -82,12 +82,12 @@ h2 {
   }
 
   .intro-box {
-    width: 50%;
-    padding-top: 10em;
-    padding-bottom: 10em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    width: 50%;
   }
 
   .name {
